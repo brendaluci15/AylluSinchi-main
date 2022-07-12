@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html  lang="es">
+        <!-- Required meta tags -->
+    <!-- menú de navegación -->
+            <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm sticky-top">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="https://upeu.edu.pe/">
+                    <img src="img/uni.jpg" width="100" height="50" class="d-inline-block align-top">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="navbar-nav mr-auto ml-auto text-center">
+                        <a class="nav-item nav-link" href="#">Inicio</a>
+                    <a class="nav-item nav-link" href="#obj">Nosotros</a>
+                         <a class="nav-item nav-link" href="#Taller">Talleres</a>
+                         <a class="nav-item nav-link" href="#Equi">Contacto</a>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <a th:href="@{/sesion}" class="btn btn-outline-primary mr-2">ADMINISTRADOR</a>
+                     </div>
+                </div>
+            </nav>
+            <!-- fin menú de navegación -->
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>UPeU Tarapoto</title>
+        <style>
+            .slider{
+            background: url("https://scontent.ftru1-1.fna.fbcdn.net/v/t39.30808-6/292786768_1212952689493191_8958600649909489385_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=urwgU3EYJ88AX9kM3ub&_nc_ht=scontent.ftru1-1.fna&oh=00_AT_CC68XpMtntY7cGkVal88oLIqiKuf6Lerwv7jr-1yoPw&oe=62CF545D");
+            height: 90vh;
+            background-size: cover;
+            background-position: center; 
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="container-fluid" layout:fragment="page-content">  
+            
+        </div>
+        
+        <section class="container-fluid slider d-flex justify-content-center align-items-center">
+            <b class="display-3">AYLLU SINCHI</b>
+        </section>
+        <!-- fin imagen principal -->
+ 
+        <!--  card -->
+        <section class="container my-5 py-5">
+            <h3 id="Taller"class="text-uppercase text-center mb-4">Programas Ayllu Sinchi</h3>
+            <p class="lead text-center mb-5">“Uno de los secretos del éxito empresario consiste no en hacer uno mismo el trabajo, sino en reconocer al hombre apropiado para hacerlo”.</p>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/paisaje.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <center>
+                            <h4 class="card-title">Resiliencia Domestica</h4>
+                            <p class="card-text">El programa trata de unificar a la comunidad con una comunicación mas viable.</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/fondo.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <center>
+                            <h4 class="card-title">Huertos de Vida Sana</h4>
+                            <p class="card-text">En este programa buscamos que los probladores siembren y cosechen sus propios alimentos.</p>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/bosque.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <center>
+                            <h4 class="card-title">Fortalecimiento de la Familia Peruana</h4>
+                            <p class="card-text">En este programa buscamos unificar y fortalecer los lasos familiares entre padre, madre, hijos e hijas.</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+  <!-- fin Cards -->
+  
+  <!-- START THE FEATURETTES -->
+      <div class="container my-5">
+        <hr class="">
+        <div id="obj" class="row d-flex align-items-center my-5 py-5">
+          <div class="col-md-7">
+            <center>
+            <h2 class="display-4">MISION</span></h2>
+            <p class="lead">Resiliencia Domestica</p>
+            </center>
+          </div>
+          <div class="col-md-5">
+            <img class=" img-fluid mx-auto" src="img/ilustracion.jpg" alt="Generic placeholder image">
+          </div>
+        </div>       
+        <hr class="">       
+        <div class="row d-flex align-items-center my-5 py-5">
+          <div class="col-md-7 push-md-5">
+            <center>
+            <h2 class="display-4">VISION</span></h2>
+          </center>
+            <p class="lead">Huertos de Vida Sana</p>
+          </div>
+          <div class="col-md-5 pull-md-7">
+            <img class=" img-fluid mx-auto" src="img/visionI.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+        
+        <hr class="">
+        
+        <div class="row d-flex align-items-center my-5 py-5">
+          <div class="col-md-7">
+            <center>
+            <h2 class="display-4">OBJETIVO</h2>
+          </center>
+            <p class="lead">Fortalecimiento de la Familia Peruana</p>
+          </div>
+          <div class="col-md-5">
+            <img class=" img-fluid mx-auto" src="img/negocio.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+  <!-- Testimonios -->
+  <div class="container py-5 my-5">
+
+    <h3 class="text-uppercase text-center mb-4">Testimonios</h3>
+    <p class="lead text-center mb-5">Muchos de nuestros sueños parecen al principio imposibles, luego pueden parecer improbables, y luego, cuando nos comprometemos firmemente, se vuelven inevitables.</p>
+    <div class="row">
+      <div class="list-group col-md-6">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">PROPOSITO</h5>
+            <small>3 days ago</small>
+          </div>
+          <p class="mb-1"> Este sistema será utilizado por estudiantes y docentes de la UPeU; y dirigido a un coordinador general y a los pobladores de la comunidad de Quinta Helena..</p>
+        </a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/fredy.jpg" alt="" class="rounded-circle mt-4" width="200px" height="200px">
+        <p class="mt-3">"Si no persigues lo que quieres, nunca lo tendrás. Si no preguntas, la respuesta siempre será no. Si no das un paso adelante, siempre estarás en el mismo lugar"</p>
+        <footer class="blockquote-footer">DEFAGUETI </footer>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Testimonios -->
+ 
+  
+  <!-- Formulario 1 -->
+  
+  <div class="container-fluid bg-success">
+    <section class="container py-5 mt-5">
+      <h3 class="text-uppercase text-center mb-4 pt-5 text-white">Formulario de Ayllu Sinchi</h3>
+      <p class="lead text-center mb-4 text-white">Tú eres más fuerte que tus miedos. Tus fuerzas son mayores que tus dudas.</p>
+      
+          <form action="" class="form-inline flex-column flex-md-row justify-content-center">
+            <div class="form-group mx-3 my-3">
+              <label for="" class="mx-3 text-white">Nombre:</label>
+              <input type="text" placeholder="Escribe tu nombre aquí" class="form-control">
+            </div>
+            <div class="form-group mx-3 my-3">
+              <label for="" class="mx-3 text-white">Email:</label>
+              <input type="email" placeholder="Escribe tu email" class="form-control">
+            </div>
+            <div class="form-group mx-3 my-3">
+              <button class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+    </section>
+  </div>
+
+  <!-- fin Formulario 1 -->
+
+  <!--carsh-->
+  <section class="container my-5 py-5">
+  <h3 id="Equi"class="text-uppercase text-center mb-4">Equipo de Trabajo</h3>
+  <p class="lead text-center mb-5">"Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito".</p>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top img-fluid" src="img/fredy.jpg" alt="Card image cap">
+      <div class="card-block">
+        <center>
+        <h4 class="card-title">FREDY ZUTA</h4>
+        <p class="lead">Síguenos<ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                               <a href="https://www.facebook.com/fred.zuta"><span class="badge badge-primary">Facebook</span></a><a href="#"><span class="badge badge-danger">Instagram</span></a>
+                            </li></p>
+      </center>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" src="img/juan.jpg" alt="Card image cap">
+      <div class="card-block">
+        <center>
+        <h4 class="card-title">JUAN GUEVARA</h4>
+        <p class="lead">Síguenos<ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                               <a href="#"><span class="badge badge-primary">Facebook</span></a><a href="https://www.instagram.com/juan_gm_rekts/"><span class="badge badge-danger">Instagram</span></a>
+                            </li></p>
+      </center>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" src="img/lulu.jpg" alt="Card image cap">
+      <div class="card-block">
+        <center>
+        <h4 class="card-title">LUCIA TIRAVANTI</h4>
+        <p class="lead">Síguenos<ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                               <a href="https://www.facebook.com/brenda.leontiravanti/"><span class="badge badge-primary">Facebook</span></a><a href="https://www.instagram.com/lucia.tiravanti15/"><span class="badge badge-danger">Instagram</span></a>
+                            </li></p>
+      </center>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top img-fluid" src="img/DENIS.jpg" alt="Card image cap">
+      <div class="card-block">
+        <center>
+        <h4 class="card-title">DENIS FASANANDO</h4>
+        <p class="lead">Síguenos<ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                               <a href="https://www.facebook.com/cesar.fasanandotrigoso"><span class="badge badge-primary">Facebook</span></a><a href="https://www.instagram.com/cesarfasanando10/"><span class="badge badge-danger">Instagram</span></a>
+                            </li></p>
+      </center>
+      </div>
+    </div>
+  </div>
+  </section>
+<!--fin-->
+  <!-- Footer -->
+<footer class="container-fluid bg-inverse">
+    <div class="row text-white py-4 text-white">
+      <div class="col-md-3">
+        <img src="images/upeu.jpg" alt="" width="200px" height="auto" class="float-left mr-3">
+      </div>
+      <div class="col-md-3">
+        <center>
+        <h4 class="lead">AYLLU SINCHI</h4>
+      </center>
+        <center>
+        <p>La creatividad de este proyecto es el poder de conectar lo aparentemente desconectado</p>
+      </center>
+      </div>
+      <div class="col-md-3">
+        <h4 class="lead">PAGINA PRINCIPAL</h4>
+          <a href="#"><span class="badge badge-primary">Inicio</span></a>
+      </div>
+      <div class="col-md-3">
+        <h4 class="lead">PAGINA</h4>
+        <a href="https://upeu.edu.pe/noticias/upeu-inicia-primera-etapa-del-proyecto-denominado-ayllu-sinchi-que-beneficiara-a-comunidades-de-la-region-san-martin/"><span class="badge badge-primary">GOOGLE CHROME</span></a>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+  
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portada/css/bootstrap.css">
+    <script th:src="@{/ventor/bootstrap.min.js}"></script>
+    
+  </body>
+</html>
